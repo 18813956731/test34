@@ -63,7 +63,7 @@ export default {
      ]).then(res=>console.log(res,"fdff"),rej=>console.log(rej,"飞飞飞"))
   },
     methods:{
-      // 调用接口 获取轮播图
+      // 调用接口 获取轮播图 测试一下git
         init(){
          getLbt().then(res=>{
            console.log(res,"resres");
